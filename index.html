@@ -1,0 +1,347 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Store | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>    
+<body>
+    
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/my-store-logo-1.c9fa6c6d.png" width="150px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems"  style="">
+                        <li class="MenuItemsList"><a href="index.html">Home</a></li>
+                        <li class="MenuItemsList" id="products_button" onClick="toggleMenu(event)" style="position:relative;"><a href="#">Products</a>
+                        <ul style="" class="products_list" id="toggleMenu">
+                                   <li><a href="#">T-Shirts</a></li>
+                                   <li><a href="#">Pants</a></li>
+                                   <li><a href="#">Watches</a></li>
+                                   <li><a href="#">Shoes</a></li>
+                                </ul></li>
+                        <li class="MenuItemsList"><a href="about.html">About</a></li>
+                        <li class="MenuItemsList"><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.Png.png" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">    
+                <div class="col-2">
+                    <h1>Great Products<br>sell Themselves</h1>
+                    <p>The more you focus on the value of your product or service,<br>the less important the price becomes.</p>
+                    <a href="products.html" class="btn">Explore Now &#8594</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/7-tshirt-colours-men.webp">
+                </div>    
+            </div>
+        </div>     
+    </div>
+<!------- featured categories ------->
+    <div class="categories">
+        <div class="small-containers">
+        <div class="row">
+            <div class="col-3">
+                <img src="images/category-1.jpg">
+            </div>
+            <div class="col-3">
+                <img src="images/category-2.jpg">
+            </div> 
+            <div class="col-3">
+                <img src="images/category-3.jpg">
+            </div> 
+        </div>
+       </div>
+    </div>
+<!------- featured products -------> 
+    <div class="small container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="products-details.html"><img src="images/product-1.jpg"></a>
+                <a class="nav-link" href="products-details.html"><h4>Puma T-Shirt</h4></a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹200</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details(1).html"><img src="images/product-2.jpg"></a>
+                <a class="nav-link" href="product-details(1).html"><h4>HRX shoes</h4></a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹800</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details(2).html"><img src="images/product-3.jpg"></a>
+                <a class="nav-link" href="product-details(2).html"><h4>Benetton Track Pant</h4></a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹300</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg">
+                <h4>Puma T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹600</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-5.jpg">
+                <h4>HRX Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹700</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-6.jpg">
+                <h4>Puma round neck t-shirts</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹600</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-7.jpg">
+                <h4>HRX Socks</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹400</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-8.jpg">
+                <h4>Fossil Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹1200</p>
+            </div>
+        </div> 
+           <div class="row">
+            <div class="col-4">
+                <img src="images/product-9.jpg">
+                <h4>Roadster Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹600</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-10.jpg">
+                <h4>HRX Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹1000</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-11.jpg">
+                <h4>Roadster</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹900</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-12.jpg">
+                <h4>Nike Track Pant</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹500</p>
+               </div>
+          </div>
+    </div>
+<!--------- offer --------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively available on MyStore</p>
+                    <h1>Smart Band 4</h1>
+                    <small>The Mi Smart Band 4 features a 39.9% larger than its predecessor, has a super capacitive AMOLED display and features 24/7 heart rate monitoring.</small>
+                    <a href="cart.html" class="btn">Buy Now &#8594</a>
+               </div>
+            </div>
+         </div>
+    </div>
+
+<!--------- brands --------->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/puma-logo.jpg">
+                </div>
+                <div class="col-5">
+                    <img src="images/HRX-logo.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/benetton-logo1.jpg">
+                </div>
+                <div class="col-5">
+                    <img src="images/Nike-logo.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/roadster-logo.jpg">
+                </div>
+            </div>
+        </div>
+    </div> 
+
+<!-------- footer -------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3> Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affilate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>Whatsapp<li>
+                        <li>9347643959</li>
+                        <li>Email<li>
+                        <li><a class="nav-link"  href="mailto:pujarisaikrishnasaikrishna@gmail.com">pujarisaikrishnasaikrishna@gmail.com</a></li>    
+                    </ul>        
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - Easy Tutorials</p>
+        </div>
+    </div> 
+<!---------js for toggle menu--------->
+    <script>
+        var MenuItems = document.getElementById("products_button");
+        
+            var show=0;
+        function toggleMenu(event){
+            event.stopPropagation();
+
+            document.querySelector('#toggleMenu').style.opacity=1
+            show=0  
+            
+        }
+
+        
+document.addEventListener('click', function(event) {
+            
+            event.stopPropagation()
+            var menu = document.querySelector('#toggleMenu'); 
+            var clickedInsideMenu = menu.contains(event.target);
+            document.querySelector('#toggleMenu').style.opacity=0
+            show=1
+
+},false);
+
+        
+
+        MenuItems.style.products_button = "0px";
+        
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+        else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>  
+  
+        
+
+</body>
+</html>
